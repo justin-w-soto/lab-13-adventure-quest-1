@@ -1,1 +1,20 @@
 /* add home page styles here */
+fieldset{
+    background: rgb(39, 37, 37);
+    color: greenyellow;
+    border: greenyellow solid 1px;
+
+}
+
+body{
+    color: white;
+    background: rgb(39, 37, 37);
+}
+
+button{
+    color: white;
+    background: rgb(128, 0, 0);
+    border-radius: 10px;
+    font-size:15px;
+    margin:20px;
+}

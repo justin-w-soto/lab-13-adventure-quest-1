@@ -15,15 +15,48 @@
     </header>
     <main>
         <section class="main-section">
-
-
+            <h2> WELOCME TO THE GREATEST MISADVENTURE!</h2>
+            <h4>SELECT YOUR HERO</h4>
+        <form id="user-form">
+            <p class="text-prompt">
+                <label for="name">Your Name:</label>
+                <input id="name" name="name">
+            </p>
+            
+            <fieldset>
+                
+                <p id="avatars">
+                    <label>
+                        <input type="radio" name="race" id="wizard" value="wizard">
+                        <img src="assets/avatars/wizard.png">
+                        Wizard
+                    </label>
+                    <label>
+                        <input type="radio" name="race" id="elf" value="elf">
+                        <img src="assets/avatars/elf.png">
+                        Elf
+                    </label>
+                    <label>
+                        <input type="radio" name="race" id="witch" value="witch">
+                        <img src="assets/avatars/witch.png">
+                        Witch
+                    </label>
+                    <label>
+                        <input type="radio" name="race" id="ranger" value="ranger">
+                        <img src="assets/avatars/ranger.png">
+                        Ranger
+                    </label>
+                </p>
+            </fieldset>
+            <button type="submit">Begin Quest</button>
+        </form>
         </section>
     </main>
     <footer>
        
     </footer>
 
-    <script type="module" src="./app.js"></script>
+    <script type="module" src="./home/home.js"></script>
 </body>
 
 </html>

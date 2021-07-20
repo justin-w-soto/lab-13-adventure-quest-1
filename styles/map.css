@@ -4,7 +4,18 @@ body {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 35px;
+    color: rgb(252, 246, 246);
+    text-shadow: 3px 3px 3px rgb(158, 37, 37);
+}
+
+a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+a:hover {
+    color: rgb(145, 7, 7);
 }
 /* CLASS TAGS */
 
@@ -13,6 +24,9 @@ h2 {
 #quest-list {
     display: flex;
     flex-direction: column;
+    font-size: 25px;
+   
+
 }
 
 #map-pic {

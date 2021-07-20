@@ -3,7 +3,7 @@ import quests from '../data/quest-data.js';
 const questList = document.getElementById('quest-list');
 
 for (let quest of quests) {
-    const questHref = `../?{quest.id}`;
+    const questHref = `../quest/?questId=${quest.id}`;
     //console.log(questHref);
 
     const questLink = document.createElement('a');

@@ -7,7 +7,6 @@ const questImage = document.getElementById('quest-image');
 const questDescription = document.getElementById('quest-description');
 const choices = document.getElementById('choices');
 const quest = findById(quests, searchParams.get('questId'));
-//console.log(quest);
 
 questTitle.textContent = quest.title;
 questImage.src = `../assets/quests/${quest.image}`;

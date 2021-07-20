@@ -43,31 +43,31 @@ const mermaid = {
     title: 'An evil Fish lady!!',
     image: 'mermaid.jpg',
     
-    description: `
-    
-    `,
+    description: `Welcome to the lake of Despair. An Evil Mermaid has been eating 
+    children from a nearby village. She appears from the lake and confronts you.`,
+
     choices: [{
         id: 'run',
         description: 'Run',
-        result: `
-           
-        `,
+        result: `You snatch a bag of gold from her neck and run. But it turns out that 
+        running from an evil mermaid ghost lady is tough. She gnaws at your ankles as you make your escape.
+        You lose one foot in the process.`,
         hp: -35,
         gold: 15
     }, {
         id: 'fight',
         description: 'fight!',
-        result: `
-           
-        `,
+        result: `She kicks your butt and leaves you on the lakeshore.`,
+
         hp: -45,
         gold: 0
     }, {
-        id: '',
-        description: '',
-        result: `
-            
-        `,
+        id: 'go on a date',
+        description: 'go on a date',
+        result: `The mermaid has been eating children out of boredom. She is lonely. 
+        You offer to take her out on a date and she accepts. After a nice dinner at hotdog on a stick
+        you realize that you two have a lot in common. She gives you a bag of gold becuase she thinks you're nice.`,
+        
         hp: 0,
         gold: 90
     }]

@@ -6,7 +6,8 @@ userForm.addEventListener('submit', e => {
     e.preventDefault(); 
     const formData = new FormData(userForm); 
     const newPlayer = makePlayer(formData); 
-    // console.log(newPlayer);
+   
     setPlayer(newPlayer);
     window.location.replace('./map');
+
 });

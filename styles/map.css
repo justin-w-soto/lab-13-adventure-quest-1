@@ -1,4 +1,26 @@
+/* GENERAL */
+body {
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+/* CLASS TAGS */
+
+
+/* ID TAGS */
 #quest-list {
     display: flex;
     flex-direction: column;
+}
+
+#map-pic {
+    width: 1000px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }

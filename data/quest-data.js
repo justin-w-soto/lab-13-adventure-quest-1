@@ -1,17 +1,13 @@
 const filthPit = {
     id: 'filth-pit',
     title: 'Imps in a Filth Pit',
-    map: {
-        top: '89%',
-        left: '44%'
-    },
     image: 'imp-in-filthpit.jpg',
     description: `
         
     `,
     choices: [{
-        id: 'negotiate',
-        description: 'Negotiate with them',
+        id: 'trick',
+        description: 'Try to con them',
         result: `
             
         `,
@@ -39,10 +35,6 @@ const filthPit = {
 const mermaid = {
     id: 'mermaid',
     title: 'An evil mermaid zombie!!',
-    map: {
-        top: '17%',
-        left: '37%'
-    },
     image: 'mermaid.jpg',
     
     description: `
@@ -78,10 +70,6 @@ const mermaid = {
 const unknown = {
     id: 'unknown',
     title: 'unknown',
-    map: {
-        top: '31%',
-        left: '5%'
-    },
     prerequisites: ['filth-pit', 'moermaid'],
     image: '',
    

@@ -1,6 +1,7 @@
 import quests from '../data/quest-data.js';
 //console.log(quests);
 const questList = document.getElementById('quest-list');
+
 for (let quest of quests) {
     const questHref = `../?{quest.id}`;
     //console.log(questHref);

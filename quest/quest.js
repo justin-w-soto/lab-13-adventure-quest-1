@@ -15,7 +15,7 @@ questDescription.textContent = quest.description;
 for (let choice of quest.choices){
     const label = document.createElement('label');
     const radio = document.createElement('input');
-    radio.name = 'choice';
+    radio.name = 'choice'; 
     radio.type = 'radio';
     radio.value = choice.id;
     

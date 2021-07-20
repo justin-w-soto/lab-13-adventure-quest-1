@@ -40,7 +40,7 @@ const filthPit = {
 
 const mermaid = {
     id: 'mermaid',
-    title: 'An evil Fish lady!!',
+    title: 'An Evil Fish lady!!',
     image: 'mermaid.jpg',
     
     description: `Welcome to the lake of Despair. An Evil Mermaid has been eating 
@@ -56,13 +56,13 @@ const mermaid = {
         gold: 15
     }, {
         id: 'fight',
-        description: 'fight!',
+        description: 'Fight!',
         result: `She kicks your butt and leaves you on the lakeshore.`,
 
         hp: -45,
         gold: 0
     }, {
-        id: 'go on a date',
+        id: 'Take Her on a Date',
         description: 'go on a date',
         result: `The mermaid has been eating children out of boredom. She is lonely. 
         You offer to take her out on a date and she accepts. After a nice dinner at hotdog on a stick

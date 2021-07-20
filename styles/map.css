@@ -1,12 +1,21 @@
 /* GENERAL */
 body {
+    
+    margin: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
     text-align: center;
 }
 
 h2 {
     font-size: 35px;
     color: rgb(252, 246, 246);
-    text-shadow: 3px 3px 3px rgb(158, 37, 37);
+    text-shadow: 3px 3px 3px rgb(218, 47, 152);
 }
 
 a {
@@ -15,7 +24,9 @@ a {
 }
 
 a:hover {
-    color: rgb(145, 7, 7);
+    color: rgb(218, 47, 152);
+    font-size: 35px;
+
 }
 /* CLASS TAGS */
 

@@ -67,7 +67,7 @@ const mermaid = {
         result: `The mermaid has been eating children out of boredom. She is lonely. 
         You offer to take her out on a date and she accepts. After a nice dinner at hotdog on a stick
         you realize that you two have a lot in common. She gives you a bag of gold becuase she thinks you're nice.`,
-        
+
         hp: 0,
         gold: 90
     }]
@@ -77,27 +77,30 @@ const unknown = {
     id: 'unknown',
     title: 'unknown',
     prerequisites: ['filth-pit', 'mermaid'],
-    image: '',
+    image: 'skull.jpg',
    
-    description: `
-        
-    `,
+    description: `In the far corner of the continent lies an ancient evil. It's source is
+     unknown but all who encounter it are stripped of their skin. It's so evil it doesn't even have a name.
+     It knows that you are here. What will you do?`,
+
     choices: [{
-        id: '1',
-        description: 'choice 1',
-        result: '',
+        id: 'eat-it',
+        description: 'Eat it',
+        result: `You have chosen to eat it. This actually works but you get indigestion so -10 hp for that. 
+        You can use the 40 gold you got to buy some tums.`,
+
         hp: -10,
         gold: 40
     }, {
-        id: '2',
-        description: 'choice 2',
-        result: '',
+        id: 'Kill-it',
+        description: 'Kill it!!',
+        result: `You can't kill pure evil, dum-dum. You just lost your skin`,
         hp: -50,
         gold: 0
     }, {
-        id: '3',
-        description: 'choice 3',
-        result: '',
+        id: 'checkers',
+        description: 'challenge the evil to checkers',
+        result: `You are awesome at checkers, you win!`,
         hp: 35,
         gold: 0
     }]

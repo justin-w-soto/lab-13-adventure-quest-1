@@ -12,3 +12,8 @@ export function setPlayer(playerObject){
     // set in local storage
     localStorage.setItem(PLAYER, playerString);
 }
+
+export function isDead(player) {
+    return player.hp <= 0;
+}
+

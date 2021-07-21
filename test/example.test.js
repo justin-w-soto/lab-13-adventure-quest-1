@@ -1,18 +1,37 @@
-// IMPORT MODULES under test here:
-// import { example } from '../example.js';
 
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
-    //Arrange
-    // Set up your arguments and expectations
-    const expected = true;
-    
-    //Act 
-    // Call the function you're testing and set the result to a const
-    const actual = true;
+import { makePlayer } from '../home/make-player.js';
+import { getPlayer, setPlayer } from '../data/storage-utils.js';
 
-    //Expect
-    // Make assertions about what is expected versus the actual result
-    expect.equal(actual, expected);
+test('should create new player', (expect) => {
+    const expected = {
+        name: 'john',
+        race: 'Elf',
+        hp: 50,
+        gold: 0,
+        completed: {}  
+    };
+
+    const playerInfo = new FormData();
+    playerInfo.set('name', 'john');
+    playerInfo.set('race', 'Elf');
+
+    const actual = makePlayer(playerInfo);
+    expect.deepEqual(actual, expected);
+});
+
+
+
+test('saveUser should update localStorage with user info', (expect) => {
+    const expected = {
+        name: 'Cabbage',
+        race: 'Witch',
+        hp: 35,
+        gold: 0,
+        completed: {}
+    };
+    setPlayer(expected);
+    const actual = getPlayer();
+    expect.deepEqual(actual, expected);
 });

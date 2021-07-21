@@ -8,9 +8,9 @@ test('should create new player', (expect) => {
     const expected = {
         name: 'john',
         race: 'Elf',
-        hp: 50,
+        completed: {},  
         gold: 0,
-        completed: {}  
+        hp: 50
     };
 
     const playerInfo = new FormData();
@@ -27,9 +27,9 @@ test('saveUser should update localStorage with user info', (expect) => {
     const expected = {
         name: 'Cabbage',
         race: 'Witch',
-        hp: 35,
+        completed: {},
         gold: 0,
-        completed: {}
+        hp: 35
     };
     setPlayer(expected);
     const actual = getPlayer();

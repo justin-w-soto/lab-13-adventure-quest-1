@@ -31,19 +31,15 @@ const questForm = document.getElementById('choice-form');
 questForm.addEventListener('submit', (e) => {
     e.preventDefault();
     const choiceForm = new FormData(questForm);
-  
     const choiceValue = choiceForm.get('choice');
     const choiceData = findById(quest.choices, choiceValue);
-    //console.log(choiceData);
-     
-    // update the player information
+    
     const player = getPlayer();
     player.gold += choiceData.gold;
     player.hp += choiceData.hp;
     player.completed[quest.id] = true;
     setPlayer(player);
 
-    // update the UX
     const backLink = document.getElementById('back-link');
     questDescription.textContent = choiceData.result;
     questForm.classList.add('hidden');

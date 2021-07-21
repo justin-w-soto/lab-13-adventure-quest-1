@@ -10,12 +10,14 @@ body {
     margin-right: auto;
     width: 75%;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
     font-size: 35px;
-    color: rgb(252, 246, 246);
-    text-shadow: 3px 3px 3px rgb(218, 47, 152);
+    color: greenyellow;
+    text-shadow: 3px 3px 3px rgba(169, 169, 169, 0.856);
+    font-family: 'Nosifer', cursive;
 }
 
 a {
@@ -41,11 +43,13 @@ a:hover {
 }
 
 #map-pic {
-    width: 80%;
+    width: 60%;
     margin: 50px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: center;
     align-content: center;
+    border-radius: 1%;
+    filter:sepia();
 }

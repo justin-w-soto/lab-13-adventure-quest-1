@@ -1,9 +1,15 @@
 /* add home page styles here */
 h2 {
-    font-size: xx-large;
+    font-size: 65px;
     text-shadow: 3px 3px 3px rgb(145, 142, 142);
+    font-family: 'Nosifer', cursive;
 }
 
+h4{ 
+    font-family: 'Nosifer', cursive;
+    font-size: 25px;
+    color:rgb(223, 26, 124)
+}
 fieldset{
     display: flex;
     justify-content: center;
@@ -13,26 +19,34 @@ fieldset{
     color: greenyellow;
     border: greenyellow solid 1px;
     width: 75%;
+    font-size: 25px;
 
 }
 
 input {
     border: solid 1px rgb(223, 26, 124);
+    font-size: 20px;
+    margin-bottom: 50px;
+    
 }
 
 body{
     display: flex;
     justify-content: center;
+    align-content: center;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    margin-bottom: 50px;
+    width: 70%;
     text-align: center;
     color: greenyellow;
-    background: rgb(39, 37, 37);
+    background: rgb(3, 3, 3);
     border: solid 1px rgba(172, 255, 47, 0.774);
     box-shadow: 5px 5px 8px greenyellow;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 button {
     font-size: 20px;
@@ -41,8 +55,12 @@ button {
     box-shadow: 0 3px 3px rgb(163, 20, 101);
     border: none;
     border-radius: 3px;
-    margin-top: 10px;
+    margin: 50px;
     
+}
+
+main {
+    background: rgb(39, 37, 37);
 }
 
 button:hover {
@@ -56,7 +74,7 @@ button:active {
 }
 
 #old-man {
-    width: 300px;
-    margin: 20px;
-    border: solid .5px rgb(0, 0, 0);
+    width: 400px;
+    border-radius: 50%;
+    margin: 50px;
 }

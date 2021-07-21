@@ -23,7 +23,7 @@ test('should create new player', (expect) => {
 
 
 
-test('saveUser should update localStorage with user info', (expect) => {
+test('should send players info to localStorage', (expect) => {
     const expected = {
         name: 'Cabbage',
         race: 'Witch',

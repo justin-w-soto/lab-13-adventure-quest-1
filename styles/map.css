@@ -1,4 +1,4 @@
-/* GENERAL */
+/* ELEMENTS */
 body {
     
     margin: 80px;
@@ -25,9 +25,12 @@ a {
     color: greenyellow;
 }
 
+
+/* PSUEDO ELEMENTS */
 a:hover {
     color: rgb(218, 47, 152);
     font-size: 35px;
+    font-family: 'Nosifer', cursive;
 
 }
 /* CLASS TAGS */

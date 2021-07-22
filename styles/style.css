@@ -90,8 +90,10 @@ button:active {
 }
 
 #old-man {
-    filter:sepia();
-    width: 400px;
-    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
     margin: 50px;
+    opacity: 90%;
+    border:rgba(172, 255, 47, 0.774) solid 2px;
 }

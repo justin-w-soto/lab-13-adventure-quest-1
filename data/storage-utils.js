@@ -30,17 +30,17 @@ function loadProfile() {
         window.location = './';
     }
 
-    name.textContent = PLAYER.name;
-    avatar.src = '../assets/avatars/' + player.race + '.png';
-    gold.textContent = player.gold;
+//     name.textContent = PLAYER.name;
+//     avatar.src = '../assets/avatars/' + player.race + '.png';
+//     gold.textContent = player.gold;
 
-    if (isDead(PLAYER)) {
-        hp.textContent = 'YOU DIED!!!';
-    }
-    else {
-        hp.textContent = PLAYER.hp;
-    }
+//     if (isDead(PLAYER)) {
+//         hp.textContent = 'YOU DIED!!!';
+//     }
+//     else {
+//         hp.textContent = PLAYER.hp;
+//     }
 
-}
+// }
 
-export default loadProfile;
+// export default loadProfile;

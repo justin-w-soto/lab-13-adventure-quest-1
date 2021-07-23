@@ -1,4 +1,17 @@
 main { 
     width: 100%;
+    height: 800px;
     
+}
+
+#hp, #gold {
+    margin: 30px;
+    display: flex;
+    
+}
+
+#play-again {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
